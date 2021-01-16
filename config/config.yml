@@ -1,0 +1,9 @@
+environment: dev
+mongo:
+  # running via virtual machine
+  server: mongodb://mongo:27017
+  # running via local machine
+  # server: mongodb://localhost:27017
+  database: Mgo
+  merchantsCollection: Merchants
+  membersCollection: Members
